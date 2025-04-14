@@ -1,0 +1,31 @@
+.upload-fab {
+  position: fixed !important;
+  bottom: 24px;
+  right: 24px;
+  background-color: #1976d2 !important;
+  color: white !important;
+  z-index: 1000;
+}
+
+.upload-card {
+  position: relative;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.upload-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  background-color: #f0f0f0;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}

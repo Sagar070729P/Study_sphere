@@ -1,7 +1,80 @@
 .community-container {
-    background-color: #202020;
-    padding: 30px;
-    color: #e0e0e0;
-    border-radius: 8px;
-  }
-  
+  padding: 2rem;
+  background-color: #121212;
+  color: #fff;
+  min-height: calc(100vh - 80px);
+}
+
+.community-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00e676;
+}
+
+.create-community {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.create-community input {
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #1e1e1e;
+  color: #fff;
+  width: 200px;
+}
+
+.create-community button {
+  padding: 0.6rem 1rem;
+  background-color: #2979ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-community button:hover {
+  background-color: #1565c0;
+}
+
+.community-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.community-card {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.community-card h3 {
+  color: #4caf50;
+  margin-bottom: 0.5rem;
+}
+
+.community-card p {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.community-card button {
+  background-color: #00bcd4;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.community-card button:hover {
+  background-color: #0097a7;
+}
